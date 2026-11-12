@@ -3,7 +3,7 @@
 ## Overview
 An end-to-end, hypothesis-driven machine learning pipeline developed to predict customer transactions on the anonymized, high-dimensional, and class-imbalanced Santander dataset (200,000 rows, 200 continuous features, ~90:10 target split)[cite: 10, 17].
 
-📄 **Full Project Documentation & Logbook:** See [`Santander_Transaction_Prediction_Projektdokumentation.pdf`](./Santander_Transaction_Prediction_Report.pdf) for detailed methodology, statistical diagnostics, and iteration logs.
+📄 **Full Project Documentation & Logbook:** See [`Santander_Transaction_Prediction_Report.pdf`](./Santander_Transaction_Prediction_Report.pdf) for detailed methodology, statistical diagnostics, and iteration logs.
 
 ## Key Engineering & Analytical Highlights
 * **Memory Optimization:** Reduced dataset memory footprint by over **50%** (from >300 MB down to 152.8 MB) without information loss by downcasting `float64` to `float32` and `int64` to `int8`[cite: 10, 17].
